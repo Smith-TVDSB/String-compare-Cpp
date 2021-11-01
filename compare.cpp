@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-bool compare(string a, string b)
+bool compareStrings(string a, string b)
 {
 	int smallLength;
 	bool firstIsShorter;
@@ -39,8 +39,8 @@ int main() {
 
   cout << "Hello World!\n";
 
-	cout << compare(word1,word2) <<endl;
-	cout << (word1<=word2);
+	cout << compareStrings(word1,word2) <<endl;
+	cout << (word1<=word2); //does the exact same thing as my compareStrings function
 } 
 
 
